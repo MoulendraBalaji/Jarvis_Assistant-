@@ -1,7 +1,20 @@
-[
-{
-"op": "replace",
-"path": "/0/instructions",
-"value": "I have created a dedicated folder for your advanced assistant at `Programming_Files/Jarvis_Assistant`. \n\n### Included Features:\n1. **Modern Dark UI**: A sleek, Ironman-inspired interface using `customtkinter`.\n2. **Gemini Integration**: Connected to Google's Gemini API for intelligent conversation.\n3. **Functionality**: Commands for system control, web browsing, music playback, and general Q&A.\n\n### Setup Instructions:\n1. **Get API Key**: You need a Google Gemini API Key. Get it from [aistudio.google.com](https://aistudio.google.com/app/apikey).\n2. **Edit Config**: Open the `.env` file in the `Jarvis_Assistant` folder and paste your key:\n `env\n   GEMINI_API_KEY=\"YOUR_PASTED_KEY_HERE\"\n   `\n3. **Install Requirements**: Run `pip install -r requirements.txt` inside the folder.\n4. **Run**: executes `python jarvis_gui.py` to start the interface."
-}
-]
+# J.A.R.V.I.S Assistant 🤖
+
+[cite_start]A sophisticated AI desktop assistant inspired by Iron Man, built with a modern "Arc Reactor" themed interface. [cite_start]This project leverages **Google Gemini** for advanced natural language processing and includes a full suite of system automation tools.
+
+## ⚡ Features
+* [cite_start]**Modern Dark UI**: A sleek interface built using `customtkinter` with an interactive "SYSTEM ONLINE" status indicator.
+* [cite_start]**Gemini Integration**: Connected to Google's Gemini API for intelligent, concise conversations.
+* [cite_start]**Voice & Text Control**: Supports both microphone input via `speech_recognition` and manual text entry.
+* [cite_start]**Speech Synthesis**: Real-time vocal responses using the `pyttsx3` engine.
+* [cite_start]**Media & Search**: Commands to play music on YouTube (`pywhatkit`), open Google/YouTube, and fetch Wikipedia summaries.
+* [cite_start]**System Commands**: Ability to provide the current time/date and initiate system shutdown sequences.
+
+---
+
+## 🛠️ Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone [https://github.com/yourusername/jarvis-assistant.git](https://github.com/yourusername/jarvis-assistant.git)
+   cd jarvis-assistant
