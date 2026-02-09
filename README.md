@@ -1,22 +1,7 @@
-# J.A.R.V.I.S Assistant 🤖
-
-A high-performance, modern AI desktop assistant inspired by Iron Man. J.A.R.V.I.S integrates **Google Gemini** for neural-network processing and **CustomTkinter** for a professional "Arc Reactor" themed interface.
-
-## ✨ Key Features
-* **Dual-Mode Input**: Seamlessly switch between voice commands and text input.
-* **Gemini AI Integration**: Advanced conversational capabilities using `gemini-flash-latest`.
-* **Media Control**: Play music on YouTube and search the web hands-free.
-* **System Automation**: Check the time, fetch facts from Wikipedia, and execute system shutdown sequences.
-* **Adaptive Audio**: Real-time text-to-speech (TTS) with a dedicated listening thread to keep the UI responsive.
-
-## 🛠️ Prerequisites
-* **Python 3.8+**
-* **Google Gemini API Key**: Obtain yours from [Google AI Studio](https://aistudio.google.com/app/apikey).
-* **Microphone**: (Optional) For voice command functionality.
-
-## 🚀 Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone [https://github.com/yourusername/jarvis-assistant.git](https://github.com/yourusername/jarvis-assistant.git)
-   cd jarvis-assistant
+[
+{
+"op": "replace",
+"path": "/0/instructions",
+"value": "I have created a dedicated folder for your advanced assistant at `Programming_Files/Jarvis_Assistant`. \n\n### Included Features:\n1. **Modern Dark UI**: A sleek, Ironman-inspired interface using `customtkinter`.\n2. **Gemini Integration**: Connected to Google's Gemini API for intelligent conversation.\n3. **Functionality**: Commands for system control, web browsing, music playback, and general Q&A.\n\n### Setup Instructions:\n1. **Get API Key**: You need a Google Gemini API Key. Get it from [aistudio.google.com](https://aistudio.google.com/app/apikey).\n2. **Edit Config**: Open the `.env` file in the `Jarvis_Assistant` folder and paste your key:\n `env\n   GEMINI_API_KEY=\"YOUR_PASTED_KEY_HERE\"\n   `\n3. **Install Requirements**: Run `pip install -r requirements.txt` inside the folder.\n4. **Run**: executes `python jarvis_gui.py` to start the interface."
+}
+]

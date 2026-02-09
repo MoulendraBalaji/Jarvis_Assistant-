@@ -1,0 +1,11 @@
+customtkinter
+pyttsx3
+google-generativeai
+pywhatkit
+wikipedia
+pyjokes
+speechrecognition
+pyaudio
+pillow
+requests
+python-dotenv
